@@ -1,0 +1,12 @@
+n1 = int(input())
+n2 = int(input())
+n3 = int(input())
+p1 = int(input())
+p2 = int(input())
+p3 = int(input())
+media_aritmetica = (n1+n2+n3)/3
+media_ponderada = ((p1*n1)+(p2*n2)+(p3*n3))/(p1+p2+p3)
+media_harmonica = 3/(1/n1+1/n2+1/n3)
+print("a: %.1f" %media_aritmetica)
+print("p: %.1f" %media_ponderada)
+print("h: %.1f" %media_harmonica)
