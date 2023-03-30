@@ -40,4 +40,3 @@ if contAV == 0:
     print(0)
 else:
     print("%.2f"%(totalAV/contAV))
-    
